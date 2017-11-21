@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #map {
+            width: 800px;
+            height: 600px;
+            position: relative;
+            background-color: #ccc;
+        }
+    </style>
+    <!--引入所需的所有工具包-->
+   <script src="Food.js" charset="UTF-8"></script>
+    <script src="Snake.js" charset="UTF-8"></script>
+    <script src="Game.js" charset="UTF-8"></script>
+    <script>
+       window.onload = function (){
+           var game = new Game(document.getElementById("map"));
+            game.start();
+       }
+    </script>
+</head>
+<body>
+
+        <div id="map"></div>
+
+</body>
+</html>
