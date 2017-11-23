@@ -1,30 +1,66 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
-    <title></title>
-    <style>
-        #map {
-            width: 800px;
-            height: 600px;
-            position: relative;
-            background-color: #ccc;
-        }
-    </style>
-    <!--引入所需的所有工具包-->
-   <script src="Food.js" charset="UTF-8"></script>
-    <script src="Snake.js" charset="UTF-8"></script>
-    <script src="Game.js" charset="UTF-8"></script>
-    <script>
-       window.onload = function (){
-           var game = new Game(document.getElementById("map"));
-            game.start();
-       }
-    </script>
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/jquery.fullpage.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    
 </head>
 <body>
+    
+    <div id="dowebok">
+        <div class="section s1">
+            <div class="cover">
+                <div class="c1"></div>
+                <div class="c2"></div>
+                <div class="c3"></div>
+                <div class="c4"></div>
+                <div class="c5"></div>
+            </div>
+            <img src="images/welcome.png" class="welcome" width="800" alt="">
+            <img src="images/mywebsite.png" class="myweb" width="800" alt="">
+            <h2 class="word">这是我的个人网站，纯属娱乐</h2>
+        </div>
+        <div class="section s2">
+            <div class="cover2">
+                <div class="c1"></div>
+                <div class="c2"></div>
+                <div class="c3"></div>
+                <div class="c4"></div>
+                <div class="c5"></div>
+            </div>
+            <div class="introduce">
+                <img src="images/me.jpeg" width="200" alt="">
+            </div>
+            <div class="author">
+                <h2>本站作者</h2>
+                <p>终于有机会和大家见面了，很是激动</p>
+                <p>网站做的太low望见谅</p>
+            </div>
+        </div>
+        <div class="section s3">
+            <div class="cover3">
+                <div class="c1"></div>
+                <div class="c2"></div>
+                <div class="c3"></div>
+                <div class="c4"></div>
+                <div class="c5"></div>
+            </div>
+        </div>
+        <div class="section s4">
+            <h3>第四屏</h3>
+        </div>
+    </div>
+    <div class="left_nav">
 
-        <div id="map"></div>
+    </div>
 
+<script src="assets/jquery.min.js"></script>
+<script src="assets/jquery.fullpage.min.js"></script>
+<script src="assets/jquery.transit.js"></script>
+<script src="js/index.js"></script>
 </body>
+
 </html>
