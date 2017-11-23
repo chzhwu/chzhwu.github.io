@@ -51,19 +51,19 @@ body{
     float:left;
 }
 .cover .c1{
-    margin-top:100%;
+    margin-top:200%;
 }
 .cover .c2{
-    margin-top:-100%;
+    margin-top:-200%;
 }
 .cover .c3{
-    margin-top:100%;
+    margin-top:200%;
 }
 .cover .c4{
-    margin-top:-100%;
+    margin-top:-200%;
 }
 .cover .c5{
-    margin-top:100%;
+    margin-top:200%;
 }
 .word{
     position: absolute;
