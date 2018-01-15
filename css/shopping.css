@@ -3,7 +3,7 @@
 
 .main{position:relative;}
 .pra{position:absolute;}
-/*µÚÒ»ÆÁ*/
+/*ï¿½ï¿½Ò»ï¿½ï¿½*/
 .section-1{background:url(../images/section-1-bg.png) no-repeat center bottom;background-color:#f9dd67;}
 .section-1 .static{left:50%;transform:translate(-50%);bottom:140px;}
 .section-1 .sofa{left:50%;margin-left:-200px;bottom:300px;animation:updown 1.5s infinite alternate linear;}
@@ -16,7 +16,7 @@
     from{bottom:520px;}
     to{bottom:480px;}
 }
-/*µÚ¶þÆÁ*/
+/*ï¿½Ú¶ï¿½ï¿½ï¿½*/
 .section-2{background:url(../images/section-2-bg.png) no-repeat center bottom;background-color:#84a2d4;z-index: 10;}
 
 .section-2 .search1{left:50%;margin-left:350px;bottom:300px;opacity:0;}
@@ -25,7 +25,7 @@
 .section-2 .goods{left:50%;margin-left:0;transform:translate(-50%);bottom:210px;height: 0;}
 .section-2 .safo{width:100px;left:50%;margin-left:-106px;bottom:340px;display:none;}
 .section-2 .cover{width: 105px;height:100px;left:574px;bottom:325px;background:#fff;display:none;}
-/*µÚÈýÆÁ*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 
 .section-3{background-color:#ef674d;z-index:9}
 .section-3 .main{width:604px;height:359px;background:url(../images/section-3-bg.png) no-repeat center;left:50%;transform: translate(-50%);bottom:140px;}
@@ -33,7 +33,7 @@
 .section-3 .color2,.section-3 .btn2{opacity: 0;}
 .section-3 .btn{left:50%;margin-left:20px;bottom:60px;}
 .section-3 .italic{left:50px;bottom:40px;display: none;z-index:7;}
-/*µÚËÄÆÁ*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .section-4{background:url(../images/section-4-bg.png) no-repeat center bottom;background-color:#ffeedd;}
 .section-4 .cart{width:407px;height:346px;left:50%;margin-left:-203px;bottom:45px;}
 .section-4 .car{z-index:12;}
@@ -48,7 +48,7 @@
 }
 #word2{display:none;}
 /*.section-4 .word1{display:block;}*/
-/*µÚÎåÆÁ*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .section-5 .safo{left:50%;margin-left:-420px;bottom:900px;display:none;}
 .section-5{background:url(../images/section-5-bg.png) repeat;}
 .section .overflow{width:100%;height:100%;overflow:hidden;position:relative;}
@@ -58,9 +58,9 @@
 .section-5 .card{left:50%;margin-left:-500px;bottom:50%;margin-bottom:-120px;z-index:2;}
 .section-5 .order{left:50%;margin-left:-400px;bottom:50%;margin-bottom:-100px;}
 .section-5 .word{left:50%;margin-left:-600px;top:50px;}
-/*µÚÁùÆÁ*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 
-.section-6{background:url(../images/section-6-bg.png) no-repeat 25% bottom;background-color:#85d9ed;}
+.section-6{background:#85d9ed url(../images/section-6-bg.png) no-repeat 25% 100%;}
 .section-6 .box{left:50%;margin-left:-1000px;bottom:500px;}
 .section-6 .safo{left:50%;margin-left:-420px;bottom:766px;display:none;}
 .section-6 .word{left:50%;margin-left:-280px;bottom:500px;display:none;}
@@ -69,11 +69,11 @@
 .section-6 .please{left:50%;margin-left:240px;bottom:400px;display:none;}
 .section-6 .man{left:50%;bottom:112px;height:0;}
 .section-6 .woman{left:50%;margin-left:380px;bottom:112px;height:0;}
-/*µÚÆßÆÁ*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .section-7{background:url(../images/section-7-bg.png) no-repeat center bottom;}
 .section-7 .star{background:url(../images/section-7-star.png);left:50%;margin-left:-293px;bottom:444px;width:0;height:14px;}/*96*/
 .section-7 .good{background:url(../images/section-7-good.png);left:50%;margin-left:-180px;bottom:380px;width:72px;height:40px;opacity: 0;}/*72*/
-/*µÚ°ËÆÁ*/
+/*ï¿½Ú°ï¿½ï¿½ï¿½*/
 .section-8{background:url(../images/section-8-bg.png) repeat;}
 .section-8 .start{background:url(../images/section-8-start-a.png);width:389px;height:160px;left:50%;margin-left:-195px;bottom:350px;}
 .section-8 .start:hover{background:url(../images/section-8-start-b.gif);}

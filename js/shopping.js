@@ -68,7 +68,7 @@ $(function(){
                     s6.find(".car").animate({marginLeft:-280},800);
                     s6.find(".box").animate({bottom:30},800,function(){
                         s6.find(".address").show();
-                        s6.animate({backgroundPosition:"100%"},1200,function(){
+                        s6.animate({backgroundPositionX:"100%"},1200,function(){
                             s6.find(".word").fadeIn(800);
                             s6.find(".man").animate({height:305},800,function(){
                                 s6.find(".please").fadeIn(400);
@@ -82,8 +82,8 @@ $(function(){
 
             if(nextIndex==7&&dricetion=="down"&& !s7.data('flag')){
                 s7.data("flag",true);
-                s7.find(".star").animate({width:96 },1000);
-                s7.find(".good").animate({marginLeft:-280,opacity:1},1000,function(){
+                s7.find(".star").delay(700).animate({width:96 },1000);
+                s7.find(".good").delay(700).animate({marginLeft:-280,opacity:1},1000,function(){
                     $(".next").fadeIn();
                 });
             }
@@ -98,7 +98,12 @@ $(function(){
                     s8.find(".hand").css({left:x-50,top:y+30});
                 })
                 s8.find(".again").click(function(event){
-                    s2.data("flag",true);
+                    s2.data("flag",false);
+                    s3.data("flag",false);
+                    s4.data("flag",false);
+                    s5.data("flag",false);
+                    s6.data("flag",false);
+                    s7.data("flag",false);
                     $.fn.fullpage.moveTo(1);
                     $("*").not("#dowebok,.section,body,html").attr("style","");
 
